@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header .image img{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+header .col1{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin-left: 370px;
+}
+
+header .col1 h5 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+header .col1 h2 {
+    color: yellow;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
